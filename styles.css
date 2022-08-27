@@ -77,6 +77,11 @@ body {
     display: block;
 }
 
+.check_more:focus-within~.see_more{
+    background: #33cccc81;
+    color: white;
+}
+
 .check_more:checked~.see_more .see_more_item {
     background: white;
     border: 2px dotted #33cccc6b;
@@ -134,6 +139,13 @@ body {
     background-position: center;
     background-size: 70%;
     background-repeat: no-repeat;
+}
+
+.check:focus-within~.burger_check .burger_img {
+    background-image: url(styles/img/burger.png);
+        background-position: center;
+        background-size: 90%;
+        background-repeat: no-repeat;
 }
 
 .items_img {
