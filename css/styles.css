@@ -382,6 +382,7 @@ body {
     .popup{
         width: 100%;
         position: absolute;
+        right: 0;
     }
 
     .see_more_item{
